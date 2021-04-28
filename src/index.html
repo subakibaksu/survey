@@ -1,0 +1,50 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<html>
+     <h1 id="title">Advertising Survey</h1>
+     <p id="description">kim's company</p>
+      <form id="survey-form">
+        <div id="border-top">
+         <select id="dropdown">
+           <option>--company--</option>
+           <option>Apple</option>
+           <option>Google</option>
+           <option>Amazon</option>
+           <option>Ebay</option>
+           <option>Uber</option>
+         </select>
+        </div>
+        <br><br>
+         single <input type="radio" name="grouped" value="name" id="dropdown">
+        <br>
+        married <input type="radio" name="grouped" value="email" id="dropdown">
+        <br>
+        have a child <input type="radio" name="grouped" value="number" id="dropdown">
+        <br><br>
+          <label for"name" id="name-label">
+            name<input type="text" id="name" placeholder="yoonjeong kim" required></input>
+          </label>
+        <br>
+          <label for"email" id="email-label">
+            email<input type="email" id="email" placeholder="email@email" required></input>
+          </label> 
+        <br>
+          <label for"number" id="number-label">
+            phone number  <input type="number" id="number" placeholder="000-0000-0000" required min="10" max="100"></input>
+          </label>
+         <p><input type="checkbox" value="female">female</input></p>
+         <p><input type="checkbox" value="male">male</input></p>
+         <p><input type="checkbox" value="nuetral">nuetral</input></p>
+         <p><textarea placeholder="writedown here"></textarea></p>
+         <input type="button" id="submit" value="submit"></input>
+      </form>
+</html>
