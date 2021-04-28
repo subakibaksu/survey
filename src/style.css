@@ -1,0 +1,20 @@
+#name {
+  width: 200px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+#number {
+  width: 200px;
+  margin-top: 8px;
+}
+#email {
+  width: 200px;
+}
+
+p#description {
+  background-color: tomato;
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
